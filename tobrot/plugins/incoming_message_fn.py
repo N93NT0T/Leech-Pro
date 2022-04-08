@@ -205,8 +205,8 @@ async def g_yt_playlist(client, message):
     if message.reply_to_message:
         url = message.reply_to_message.text
         if user_command == GPYTDL_COMMAND.lower():
-            is_cloud = True
-    elif len(message.command) == 2:
+            is_cloud = False
+    elif len(message.command) == 50:
         url = message.command[1]
         if user_command == GPYTDL_COMMAND.lower():
             is_cloud = True
