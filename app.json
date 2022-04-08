@@ -15,23 +15,23 @@
     },
     "APP_ID": {
       "description": "Get this value from https://my.telegram.org",
-      "value": ""
+      "value": "11935084"
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
-      "value": ""
+      "value": "644b5ad6ad0e5d394cfe6b780f47680c"
     },
     "TG_BOT_TOKEN": {
       "description": "get this value from @BotFather",
-      "value": ""
+      "value": "5283629640:AAHMj-mUBvEHlMDEyv7A-cyhuCjk96rlNk0"
     },
     "AUTH_CHANNEL": {
       "description": "should be an integer. The BOT API ID of the Telegram Group, where the Leecher should work., Put Group ID",
-      "value": ""
+      "value": "-1001707495428"
     },
     "OWNER_ID": {
       "description": "should be an integer. ID of owner of bot",
-      "value": ""
+      "value": "1393311560"
     },
     "UPLOAD_AS_DOC": {
       "description": "True/False. If true all files will be uploaded as documents. Default is False.",
@@ -54,14 +54,17 @@
     },
     "MAX_TIME_TO_WAIT_FOR_TORRENTS_TO_START": {
       "description": "should be an integer. Number of seconds to wait before cancelling a torrent.",
+      "value": "300",
       "required": false
     },
     "FINISHED_PROGRESS_STR": {
       "description": "should be a single character.",
+      "value": "■",
       "required": false
     },
     "UN_FINISHED_PROGRESS_STR": {
       "description": "should be a single character.",
+      "value": "□",
       "required": false
     },
     "TG_OFFENSIVE_API": {
@@ -94,6 +97,7 @@
     },
     "YTDL_COMMAND": {
       "description": "Enter your custom ytdl command like ytdl1@urgroupname and so on. Default is /ytdl.",
+      "value": "ytdl@koncholllll",
       "required": false
     },
     "PYTDL_COMMAND_G": {
@@ -118,6 +122,21 @@
     },
     "CUSTOM_FILE_NAME": {
       "description": "fill with name u want to prefix the file name like ur channel username🙊, keep empty for do nothing, but add to ur config vars even without input.",
+      "required": false
+    },
+    "TELEGRAM_LEECH_COMMAND": {
+      "description": "should be an integer. Number of seconds to wait before editing a message.",
+      "value": "tgleech",
+      "required": false
+    },
+    "TELEGRAM_LEECH_UNZIP_COMMAND": {
+      "description": "should be an integer. Number of seconds to wait before cancelling a torrent.",
+      "value": "tgextract",
+      "required": false
+    },
+    "STATUS_COMMAND": {
+      "description": "should be a single character.",
+      "value": "status",
       "required": false
     }
   },
